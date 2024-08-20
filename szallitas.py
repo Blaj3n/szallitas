@@ -23,7 +23,7 @@ for tomeg in tomegek:
 if aktualis_doboz > 0:
     dobozok.append(aktualis_doboz)
 
-print(f"A dobozok tartalmának tömege (kg): {dobozok} ")
+print(f"A dobozok tartalmának tömege (kg):", *dobozok)
 print(f"A szükséges dobozok száma: {len(dobozok)}")
 
 # for ciklus magyarázat
